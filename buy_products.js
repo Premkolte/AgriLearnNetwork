@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       body.classList.add("dark-theme");
     }
 
-    themeToggle.addEventListener("click", function () {
+    themeToggle.addEventListener("click", function (){
       body.classList.toggle("dark-theme");
 
       // Save the current theme in local storage
